@@ -1,0 +1,64 @@
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+#intro {
+	background: url('/images/banner_img.jpg') no-repeat center center fixed;
+	width: 100%;
+	height: 600px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.7;
+}
+
+#intro h1 {
+	margin: 0;
+	color: white;
+	font-size: 110px;
+	padding: 1%;
+	text-align: center;
+}
+
+#intro h3 {
+	padding: 5%;
+	font-weight: bold;
+	color: white;
+	margin: 0;
+}
+
+#about h3 {
+	margin: 0;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+#about {
+	background-color: #B2CC64;
+}
+
+.centertext {
+	text-align: center;
+	color: white;
+}
+
+.arrow-down {
+	text-align: center;
+}
+
+#posts {
+	min-height: 800px;
+	background-color: #DEDEDE;
+}
